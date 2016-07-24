@@ -9,7 +9,12 @@
   border-style: solid;
   border-width: 3px;
 }*/
-
+body,html{
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
 .logo{
   z-index: -1;
   position: fixed;

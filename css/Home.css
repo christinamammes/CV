@@ -4,6 +4,7 @@
   overflow-x: hidden;
   font-family: 'Amatic SC', cursive;
 }
+
 /*div{
   border-color: green;
   border-style: solid;
@@ -18,7 +19,7 @@
 .head{
   width: 100vw;
   height: 70vh;
-  background-image: url(/Users/christinaannasophie/Sites/Portfolio/images/Home.png);
+  background-image: url(../images/Home.png);
   background-position: 0 bottom;
   background-size: 65vh auto;
   background-repeat: no-repeat;
@@ -40,9 +41,6 @@
 #style_name_3{
   font-size: 100px;
 }
-
-
-
 
 .menue{
   width: 100vw;
@@ -80,15 +78,18 @@
   justify-content: center;
   width: 100vw;
   height: 300px;
+  padding-top: 120px;
 }
 
 .facebook, .instagram, .telefon{
-  margin: 0 20px;
-  margin-top: 120px;
+  margin: 20px;
   width: 100px;
   height: 100px;
 }
 
+.telefon{
+  width: 200px;
+}
 
 
 #fb, #ig, #vg {
@@ -97,9 +98,31 @@
 
 }
 
+#nummer{
+  display: none
+  width: 200px;
+  height: 100px;
+}
 
+.telefon:hover > #vg{
+  display:none;
+}
+
+.telefon:hover > #nummer{
+  display:block;
+}
 
 a{
   text-decoration: none;
   color: white;
+}
+
+.footer{
+  position:relative;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 2em;
+  margin-left: 20px;
+  color: black;
 }
