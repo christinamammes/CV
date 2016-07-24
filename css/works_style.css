@@ -1,0 +1,63 @@
+@import url(../css/menue_style.css);
+
+.werke{
+  position: relative;
+  top: 100px;
+  background-color: black;
+  width: 100vw;
+  height: 300vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bild_1, #bild_2, #bild_3{
+  display: block;
+  float: left;
+
+}
+
+#bild_1{
+  width: 300px;
+  height: auto;
+  margin-left: 200px;
+}
+#bild_2{
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+#bild_3{
+  width: 300px;
+  height: auto;
+  margin-left: 20px;
+}
+#bild_4{
+  width: 500px;
+  height: auto;
+  margin-bottom: 185px;
+  margin-left: 200px;
+}
+
+#bild_5{
+  width: 420px;
+  height: auto;
+  margin-top:20px;
+  margin-left: 20px;
+}
+#bild_6{
+  width: 500px;
+  height: auto;
+  margin-left: 200px;
+}
+
+#bild_7{
+  width: 420px;
+  height: auto;
+  margin-top:20px;
+  margin-left: 20px;
+}
+#bild_8{
+  width: 940px;
+  height: auto;
+  margin-top:20px;
+  margin-left: 200px;
+}
